@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18A389" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ContactList" representedClassName="ContactList" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="key" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" minValueString="1" maxValueString="20" defaultValueString="Name" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" minValueString="1" maxValueString="10" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ContactList" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
